@@ -2,8 +2,28 @@
 
 > Here is [the working version](https://mate-academy.github.io/react_product-categories-practice/)
 
-You are given a markup for a table of products and 3 arrays. 
+You are given a markup for a table of products and 3 arrays.
 Implement as many options below as you can:
+
+
+Отображение продуктов в таблице с идентификатором, именем, категорией и владельцем (пользователем).
+категория должна отображать свой значок перед заголовком;
+Имена владельцев должны быть окрашены в цвет has-text-link для мужчин и has-text-danger для женщин.
+Реализовать возможность фильтрации товаров по владельцу:
+Если пользователь выбран, он должен быть выделен классом is-active;
+Показывать только товары выбранного пользователя;
+Выберите «Все», чтобы просмотреть все продукты.
+Используйте входные данные для фильтрации продуктов по названию.
+Показывать только продукты, в названии которых указано входное значение, игнорируя регистр;
+Кнопка x должна появляться только в том случае, если значение не пустое;
+Очистите значение после нажатия кнопки x.
+Показывать сообщение «Нет результатов», если нет продуктов, соответствующих текущим критериям.
+Кнопка «Сбросить все фильтры» должна очистить все фильтры.
+(*) Разрешить выбор нескольких категорий:
+Добавить класс is-info в выбранные категории;
+Показывать только товары выбранных категорий;
+Кнопка «Все» должна очистить выбор;
+Удалите класс is-outlined из кнопки «Все», если ни одна категория не выбрана.
 
 1. Render products in a table with id, name, category, and owner (user).
     - category should render its icon before the title;
@@ -33,7 +53,7 @@ Implement as many options below as you can:
 ## Instructions
 - Fork, clone, and run `npm i`
 - fix the DEMO LINK below (use your GitHub username and the repo name)
-  - [DEMO LINK](https://<your-account>.github.io/<your-repo-name>)
+  - [DEMO LINK](https://voronine.github.io/<your-repo-name>)
 - implement tasks one by one (You can do it in the `App.jsx`)
 - `commit`, `push`, and `deploy` after each task
 - Send a link to your `App.jsx` file to your personal Slack channel (for example #fe_apr22_misha_hrynko)
